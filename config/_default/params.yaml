@@ -5,14 +5,14 @@ hb:
     logo_bg: false
     full_width: false
     socials:
-      github: dev-akorolev
+      github: anchoret
       gmail: mailto:dev.akorolev@gmail.com
       telegram: dev_akorolev
       rss: true
   footer:
     socials:
       _color: false
-      github: dev-akorolev
+      github: anchoret
       gmail: mailto:dev.akorolev@gmail.com
       telegram: dev_akorolev
       rss: true
@@ -31,7 +31,7 @@ hb:
         company: false
         socials:
           _color: false
-          github: dev-akorolev
+          github: anchoret
           gmail: mailto:dev.akorolev@gmail.com
           telegram: dev_akorolev
       posts:
@@ -65,17 +65,17 @@ hb:
         - notes
         - news
     giscus:
-      repo: dev-akorolev/discussions
-      repo_id: R_kgDOLQfSuQ
+      repo: anchoret/akorolev.dev
+      repo_id: R_kgDOK_FEPA
       category: Announcements
-      category_id: DIC_kwDOLQfSuc4CdHAI
+      category_id: DIC_kwDOK_FEPM4CcGLC
       theme: dark_dimmed
   docs:
     giscus:
-      repo: dev-akorolev/discussions
-      repo_id: R_kgDOLQfSuQ
+      repo: anchoret/akorolev.dev
+      repo_id: R_kgDOK_FEPA
       category: Announcements
-      category_id: DIC_kwDOLQfSuc4CdHAI
+      category_id: DIC_kwDOK_FEPM4CcGLC
       theme: dark_dimmed
 
 
