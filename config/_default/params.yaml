@@ -5,16 +5,16 @@ hb:
     logo_bg: false
     full_width: false
     socials:
-      github: anchoret
-      gmail: mailto:dev.akorolev@gmail.com
-      telegram: dev_akorolev
+      github: akorolev-dev
+      email: akorolev.dev@yandex.ru
+      telegram: akorolevdev
       rss: true
   footer:
     socials:
       _color: false
-      github: anchoret
-      gmail: mailto:dev.akorolev@gmail.com
-      telegram: dev_akorolev
+      github: akorolev-dev
+      email: akorolev.dev@yandex.ru
+      telegram: akorolevdev
       rss: true
   blog:
     list_cols_md: 2
@@ -31,9 +31,9 @@ hb:
         company: false
         socials:
           _color: false
-          github: anchoret
-          gmail: mailto:dev.akorolev@gmail.com
-          telegram: dev_akorolev
+          github: akorolev-dev
+          email: akorolev.dev@yandex.ru
+          telegram: akorolevdev
       posts:
         recent_count: 5
         featured_count: 5
