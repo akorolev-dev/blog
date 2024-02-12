@@ -10,7 +10,7 @@ publishDate: {{ .Date }}
 noindex: false
 featured: false
 pinned: false
-comments: false
+comments: true
 series:
 #  - 
 categories:

@@ -8,6 +8,7 @@ require (
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
+	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
 	github.com/hbstack/blog/modules/post-nav v0.3.6 // indirect
 	github.com/hbstack/blog/modules/related-posts v0.2.5 // indirect
@@ -40,6 +41,7 @@ require (
 	github.com/hbstack/theme-cards v0.1.1 // indirect
 	github.com/hugomods/base v0.4.1 // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
+	github.com/hugomods/giscus v0.1.1 // indirect
 	github.com/hugomods/google-analytics v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.2.3 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect

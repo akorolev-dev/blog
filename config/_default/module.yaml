@@ -42,6 +42,7 @@ imports:
   - path: github.com/hbstack/blog/modules/heading-sign
   - path: github.com/hbstack/blog/modules/post-nav
   - path: github.com/hbstack/blog/modules/related-posts
+  - path: github.com/hbstack/blog/modules/giscus
 
   - path: github.com/hbstack/docs
   - path: github.com/hbstack/docs/modules/breadcrumb
