@@ -1,0 +1,14 @@
+<a class="icon-link" href="{{ .Destination | safeURL }}"
+    {{ with .Title}} title="{{ . }}"{{ end }}
+    {{ $isExternal := strings.HasPrefix .Destination "http" }}
+    {{ if ($isExternal) }}
+        target="_blank" rel="external nofollow noopener noreferrer"
+    {{ end }} >
+    {{ .Text | safeHTML }}
+    {{ if ($isExternal) }}
+        {{ $context := dict
+            "vendor" "bootstrap"
+            "name" "box-arrow-up-right"
+        }} {{ partial "icons/icon" $context }}
+    {{ end }}
+</a>

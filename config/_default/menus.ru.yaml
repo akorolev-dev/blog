@@ -1,0 +1,9 @@
+main:
+  - name: Таксономия
+    identifier: taxonomy
+    weight: 5
+    params:
+      header: Навигация по всем материалам
+      icon:
+        vendor: bs
+        name: boxes

@@ -1,0 +1,16 @@
+description: Персональный блог про IT и жизнь.
+hb:
+  blog:
+    sidebar:
+      profile:
+        title: Алексей Королёв
+        description: Разработчик ПО, роллер, виндсёрфер, сапбордист, слэклайнер.
+        location: Россия, г. Саратов
+      taxonomies:
+        tags:
+          title: Тэги
+        series:
+          title: Серии
+        categories:
+          title: Категории
+    post_thumbnail_placeholder: akorolev.dev

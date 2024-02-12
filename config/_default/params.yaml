@@ -1,0 +1,117 @@
+hb:
+  full_width: false
+  header:
+    brand:
+    logo_bg: false
+    socials:
+      github: dev-akorolev
+      gmail: mailto:dev.akorolev@gmail.com
+      telegram: dev_akorolev
+      rss: true
+  footer:
+    socials:
+      _color: false
+      github: dev-akorolev
+      gmail: mailto:dev.akorolev@gmail.com
+      telegram: dev_akorolev
+      rss: true
+  blog:
+    list_cols_md: 2
+    list_cols_lg: 4
+    toc:
+      position: content
+    sidebar:
+      sticky: false
+      width: .35
+      position: start
+      profile:
+        avatar: /images/avatar.jpg
+        avatar_size: 100
+        company: false
+        socials:
+          _color: false
+          github: dev-akorolev
+          gmail: mailto:dev.akorolev@gmail.com
+          telegram: dev_akorolev
+      posts:
+        recent_count: 5
+        featured_count: 5
+        style: underline
+        list_style: slide
+      taxonomies:
+        count: true
+        limit: 20
+        style: pills
+        separate: false
+        authors:
+          disable: false
+        tags:
+          disable: false
+          weight: 1
+        series:
+          disable: false
+          weight: 2
+        categories:
+          disable: false
+          weight: 3
+    paginate: 8
+    home:
+      taxonomies: false
+      featured_posts: 5
+      pinned_posts_position: "list"
+      main_sections: # leave it empty to include all regular pages.
+        - posts
+        - notes
+        - news
+
+code_block_panel:
+  max_lines: 20
+  wrap: true
+
+seo:
+  favicons:
+    icon: images/avatar.jpg
+
+# PWA settings, see https://hugomods.com/en/docs/pwa/#site-parameters.
+pwa:
+  debug: false
+  icon_path: /images/avatar.jpg
+  manifest:
+    background_color: '#712cf9'
+    theme_color: '#712cf9'
+    short_name: 'HB Theme'
+
+# see https://hugomods.com/search/configurations/.
+search:
+  stall_threshold: 300
+  min_match_char_length: 2
+  case_sensitive: false
+  # shortcut_search: ["/"]
+
+mermaid:
+  # replace it with other CDNs or self-hosted URLs.
+  js_url: https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs
+
+hugopress:
+  modules:
+    hb-custom:
+      hooks:
+        # see layouts/partials/hugopress/modules/hb-custom/hooks/head-end.html.
+        head-end:
+          cacheable: true
+        # see layouts/partials/hugopress/modules/hb-custom/hooks/body-end.html.
+        body-end:
+          cacheable: true
+        # see layouts/partials/hugopress/modules/hb-custom/hooks/hb-blog-sidebar.html.
+        hb-blog-sidebar:
+          cacheable: true
+          weight: 4
+    # change the order of sidebar modules.
+    hb-blog-sidebar-taxonomies:
+      hooks:
+        hb-blog-sidebar:
+          weight: 3
+    hb-blog-sidebar-posts:
+      hooks:
+        hb-blog-sidebar:
+          weight: 2
