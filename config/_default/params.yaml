@@ -70,6 +70,13 @@ hb:
       category: Announcements
       category_id: DIC_kwDOLQfSuc4CdHAI
       theme: dark_dimmed
+  docs:
+    giscus:
+      repo: dev-akorolev/discussions
+      repo_id: R_kgDOLQfSuQ
+      category: Announcements
+      category_id: DIC_kwDOLQfSuc4CdHAI
+      theme: dark_dimmed
 
 
 code_block_panel:

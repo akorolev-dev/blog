@@ -7,7 +7,7 @@ draft: false
 noindex: false
 featured: false
 pinned: false
-comments: false
+comments: true
 images:
   - johnny-briggs-ltQglMQc02c-unsplash.jpg
 ---
