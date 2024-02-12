@@ -2,6 +2,7 @@
 imports:
   - path: github.com/hbstack/pagination
   - path: github.com/hbstack/bs-tooltip
+  - path: github.com/hugomods/google-analytics
   - path: github.com/hbstack/theme-cards
 
   - path: github.com/hbstack/google-fonts
@@ -10,7 +11,6 @@ imports:
   - path: github.com/hugomods/katex
   - path: github.com/hugomods/shortcodes
   - path: github.com/hugomods/images
-  - path: github.com/hugomods/google-analytics
   - path: github.com/hbstack/code-block-panel
   - path: github.com/hbstack/syntax-highlighting/styles/gruvbox
   - path: github.com/hbstack/noscript
