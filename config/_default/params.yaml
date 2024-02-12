@@ -3,6 +3,7 @@ hb:
   header:
     brand:
     logo_bg: false
+    full_width: false
     socials:
       github: dev-akorolev
       gmail: mailto:dev.akorolev@gmail.com
