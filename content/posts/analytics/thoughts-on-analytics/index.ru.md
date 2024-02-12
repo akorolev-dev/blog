@@ -5,7 +5,7 @@ draft: false
 description: "Размышления об аналитике или как вычислить адрес по фотографии из окна."
 noindex: false
 featured: true
-pinned: false
+pinned: true
 comments: true
 slug: thoughts-on-analytics
 categories:
