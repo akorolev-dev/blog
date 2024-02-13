@@ -12,7 +12,5 @@ menu:
 nav_icon:
   vendor: bs
   name: house
-images:
-  - /images/home.jpg
 ---
-![Изображение главной страницы](/images/home.jpg)
+![Изображение главной страницы](feature-home.jpg)
