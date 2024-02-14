@@ -65,14 +65,14 @@ hb:
         - notes
         - news
     giscus:
-      repo: anchoret/akorolev.dev
+      repo: akorolev-dev/blog
       repo_id: R_kgDOK_FEPA
       category: Announcements
       category_id: DIC_kwDOK_FEPM4CcGLC
       theme: dark_dimmed
   docs:
     giscus:
-      repo: anchoret/akorolev.dev
+      repo: akorolev-dev/blog
       repo_id: R_kgDOK_FEPA
       category: Announcements
       category_id: DIC_kwDOK_FEPM4CcGLC
