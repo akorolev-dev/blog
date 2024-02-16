@@ -1,5 +1,5 @@
 ---
-title: Тэги
+title: Теги
 menu:
   main:
     parent: taxonomy
