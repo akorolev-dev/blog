@@ -20,7 +20,7 @@ imports:
   # icons modules
   # - path: github.com/hugomods/icons/vendors/font-awesome
   # - path: github.com/hugomods/icons/vendors/feather
-  # - path: github.com/hugomods/icons/vendors/lucide
+  - path: github.com/hugomods/icons/vendors/lucide
 
   - path: github.com/hbstack/back-to-top
   - path: github.com/hbstack/bigger-picture
