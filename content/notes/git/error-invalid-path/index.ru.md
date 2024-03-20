@@ -10,7 +10,7 @@ pinned: false
 comments: true
 slug: fix-error-invalid-path-git
 categories:
-  - training
+  - skills
 tags:
   - git
 images:

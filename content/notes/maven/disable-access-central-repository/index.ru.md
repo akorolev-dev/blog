@@ -10,7 +10,7 @@ pinned: false
 comments: true
 slug: disable-access-central-repository
 categories:
-  - training
+  - skills
 tags:
   - maven
 images:
