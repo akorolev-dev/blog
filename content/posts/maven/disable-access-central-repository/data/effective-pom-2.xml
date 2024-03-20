@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>dev.akorolev.maven</groupId>
+    <artifactId>simple-pom</artifactId>
+    <version>0.1.0</version>
+    <properties>
+        <java.version>21</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Private Nexus Common Repository</name>
+            <url>https://akorolev.dev/repository/common/</url>
+        </repository>
+        <repository>
+            <id>camunda-bpm-nexus</id>
+            <name>Private Nexus Common Repository</name>
+            <url>https://akorolev.dev/repository/common/</url>
+        </repository>
+        <repository>
+            <id>private-nexus-subdivision</id>
+            <name>Private Nexus Subdivision Repository</name>
+            <url>https://akorolev.dev/repository/subdivision/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <name>Private Nexus Common Plugin Repository</name>
+            <url>https://akorolev.dev/repository/common/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    <!-- Удалены блоки <build> и <reporting>-->
+</project>
