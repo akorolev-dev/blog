@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+
+    <mirrors>
+        <mirror>
+            <id>private-nexus-mock-external</id>
+            <mirrorOf>central</mirrorOf>
+            <name>Repository to mock external</name>
+            <url>https://akorolev.dev/repository/common/</url>
+        </mirror>
+    </mirrors>
+
+    <localRepository>D:/.m2/local_repository</localRepository>
+</settings>
