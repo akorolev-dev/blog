@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+
+    <localRepository>D:/.m2/local_repository</localRepository>
+    <mirrors>
+        <mirror>
+            <id>private-nexus-common-http-unblocker</id>
+            <mirrorOf>private-nexus-common</mirrorOf>
+            <url>http://akorolev.dev:9083/repository/common/</url>
+        </mirror>
+    </mirrors>
+    <profiles>
+        <profile>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>private-nexus-common</id>
+                    <name>Репозиторий релизных артефактов</name>
+                    <url>http://akorolev.dev:9083/repository/common/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+</settings>

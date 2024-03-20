@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
+    <localRepository>D:\.m2\local_repository</localRepository>
+    <mirrors>
+        <mirror>
+            <mirrorOf>private-nexus-common</mirrorOf>
+            <url>http://akorolev.dev:9083/repository/common/</url>
+            <id>private-nexus-common-http-unblocker</id>
+        </mirror>
+        <mirror>
+            <mirrorOf>external:http:*</mirrorOf>
+            <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
+            <url>http://0.0.0.0/</url>
+            <blocked>true</blocked>
+            <id>maven-default-http-blocker</id>
+        </mirror>
+    </mirrors>
+    <profiles>
+        <profile>
+            <repositories>
+                <repository>
+                    <id>private-nexus-common</id>
+                    <name>Репозиторий релизных артефактов</name>
+                    <url>http://akorolev.dev:9083/repository/common/</url>
+                    <releases/>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
+    <pluginGroups>
+        <pluginGroup>org.apache.maven.plugins</pluginGroup>
+        <pluginGroup>org.codehaus.mojo</pluginGroup>
+    </pluginGroups>
+</settings>
