@@ -28,7 +28,7 @@ hb:
       profile:
         avatar: /images/avatar.jpg
         avatar_size: 100
-        company: false
+        company: Neoflex
         socials:
           _color: false
           github: akorolev-dev
