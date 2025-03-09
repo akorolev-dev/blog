@@ -3,22 +3,21 @@
   "description": "Personal blog about IT and life.",
   "scripts": {
     "dev": "hugo server --gc -D",
-    "prod": "hugo server --gc --disableFastRender --renderToDisk --minify -e production -p 1314"
+    "prod": "hugo server --gc --disableFastRender --minify -e production -p 1314"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anchoret/akorolev.dev.git"
+    "url": "git+https://github.com/akorolev-dev/blog.git"
   },
   "author": "Aleksey Korolev <akorolev.dev@yandex.ru>",
   "license": "CC BY-NC-SA 4.0",
   "bugs": {
-    "url": "https://github.com/anchoret/akorolev.dev/issues"
+    "url": "https://github.com/akorolev-dev/blog/issues"
   },
   "homepage": "https://akorolev.dev",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@fullhuman/postcss-purgecss": "^7.0.0",
     "autoprefixer": "^10.4.14",
-    "decap-server": "^3.0.1",
     "postcss-cli": "^11.0.0",
     "rtlcss": "^4.0.0"
   }
