@@ -8,14 +8,14 @@ hb:
       github: akorolev-dev
       email: akorolev.dev@yandex.ru
       telegram: akorolevdev
-      rss: true
+      #rss: true
   footer:
     socials:
       _color: false
       github: akorolev-dev
       email: akorolev.dev@yandex.ru
       telegram: akorolevdev
-      rss: true
+      #rss: true
   blog:
     list_cols_md: 2
     list_cols_lg: 4
