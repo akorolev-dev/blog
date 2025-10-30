@@ -11,5 +11,5 @@ publish = "public"
 
 [build.environment]
 NODE_VERSION = "22"
-HUGO_VERSION = "0.145.0"
+HUGO_VERSION = "0.152.2"
 DART_SASS_VERSION = "1.85.1"
